@@ -42,6 +42,8 @@ generate
     end
 endgenerate
 
+
+
 // If masked grant is 0, assign unmasked grant
 assign gnt_out = (|(gnt_masked) == 1'b0) ? gnt_raw : gnt_masked;
 
